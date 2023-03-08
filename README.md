@@ -14,7 +14,7 @@
 
 ## Overview
 
-### Live Site Link - [darkidop.github.io/FrontendMentor](https://darkidop.github.io/FrontendMentor)
+### Live Site Link - [darkidop.github.io/Word-change-with-scramble-effect](https://darkidop.github.io/Word-change-with-scramble-effect)
 ### Live Site preview
 ![](./preview.png)
 
@@ -25,8 +25,8 @@
 
 
 ### Usage 
-1. Download the [WordScrambleEffect.min.js]() file.
-2. add the [WordScrambleEffect.min.js]() file to your page using the script (example below)
+1. Download the [WordScrambleEffect.min.js](https://github.com/DarkidOP/Word-change-with-scramble/blob/main/WordScrambleEffect.min.js) file.
+2. add the [WordScrambleEffect.min.js](https://github.com/DarkidOP/Word-change-with-scramble/blob/main/WordScrambleEffect.min.js) file to your page using the script (example below)
 ```html
 <script src="./WordScrambleEffect.min.js"></script>
 ```
