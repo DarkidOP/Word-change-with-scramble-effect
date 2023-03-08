@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+
+:root{
+        /* github page dark theme color scheme */
+        --bg-clr-darker-blue: #0d1117;
+        --bg-clr-dark-blue: #161b22;
+
+        --txt-clr-default: #c9d1d9;
+        --txt-clr-muted: #8b949e;
+        --txt-clr-subtle: #6e7681;
+
+        --color-accent-fg: #58a6ff;
+        --color-accent-emphasis: #1f6feb;
+        --color-accent-muted: rgba(56,139,253,0.4);
+        --color-accent-subtle: rgba(56,139,253,0.15);
+        
+        --color-success-fg: #3fb950;
+        --color-success-emphasis: #238636;
+        --color-success-muted: rgba(46,160,67,0.4);
+        --color-success-subtle: rgba(46,160,67,0.15);
+        
+        --color-danger-fg: #f85149;
+        --color-danger-emphasis: #da3633;
+        --color-danger-muted: rgba(248,81,73,0.4);
+        --color-danger-subtle: rgba(248,81,73,0.15);
+  
+}
+
+html{
+    color-scheme: dark;
+}
+
+
+*,*::after, *::before {
+padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+}
+
+body {
+
+    font-family: 'Oxanium', cursive;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--bg-clr-darker-blue);
+    display: grid;
+    place-items: center;
+}
+
+.content-wrapper{
+    text-align: center;
+}
+.content-wrapper h1{
+    font-size: 3.7rem;
+    font-weight: 500;
+}
+
+span {
+    color: rgb(0, 255, 157);
+}
+.ins-p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+.ins{
+    color: var(--color-accent-fg);
+    text-decoration: none;
+    transition: 200ms;
+}
+.ins:hover{
+    transition: 200ms;
+    text-decoration: underline;
+    opacity: 0.7;
+    padding: 0 1.7rem;
+}
+/* project css end */
+
+
+/* about css start*/
+
+.git-repo{
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+    background-color: var(--bg-clr-dark-blue);
+    border: 1px solid var(--txt-clr-subtle);
+    border: 1px solid #3e4959e3;
+    padding: 0.7rem;
+    border-radius: 7px;
+    transition:  260ms;
+    text-decoration: none;
+}
+.git-repo:hover{
+    transition:  260ms;
+    background-color: #3e4959e3;;
+    border: 1px solid var(--txt-clr-subtle);
+
+}
+
+
+.darkid-about {
+    position:fixed;
+    left: 50%;
+     -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: -1px;
+    width: 22rem;
+
+    padding: 1rem;
+    border-radius: 30px 30px 0 0 ;
+    border: 1px solid #3e4959e3;
+background: #161b226e;
+backdrop-filter: blur(10px);
+display: grid;
+place-items: center;
+
+
+}
+.darkid-about img{
+width: 96px;
+margin-top: -70px;
+transition: 250ms;
+}
+.darkid-about img:hover{
+    transition: 250ms;
+transform: scale(1.2);
+filter: drop-shadow(-5px 10px 30px #000);
+cursor:grabbing;
+}
+
+.darkid-about ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-bottom: 2px;
+}
+.darkid-about li i{
+    color: var(--txt-clr-default);
+    font-size: 1.5rem;
+    border: 1px solid #00000000;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    transition: 250ms;
+    background-color: var(--bg-clr-dark-blue);
+    border: 1px solid var(--txt-clr-subtle);
+}
+.darkid-about li i:hover{
+    transition: 250ms;
+    background-color: #3e4959e3;
+    border: 1px solid var(--txt-clr-subtle);
+}
+/* about css end*/
+
+@media only screen and (max-width: 750px) {
+    .content-wrapper h1{
+        font-size: 2.2rem
+    }
+    
+}
